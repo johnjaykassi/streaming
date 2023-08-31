@@ -1,0 +1,94 @@
+/* acceuil */
+*{
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(172, 173, 189);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo{
+    font-size: 2.5rem;
+    color: black;
+}
+nav{
+    margin-right: 70px;
+    padding-left: 30px;
+}
+header nav .logo{
+    margin-left: 90px;
+}
+.nav-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.nav-link a:hover{
+    color: black;
+}
+.nav-link a:nth-child(1){
+    margin-right: 50px;
+}
+button{
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#acceuil{
+    padding: 280px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    background-image: url("assets/img/expendable-2-1.jpg") ;
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la section */
+    background-position: center center; /* Positionne l'image au centre de la section */
+    background-repeat: no-repeat;
+}
+.audeo nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+audio{
+    width: 100%;      
+    border-radius: 10px;
+    margin-top: -30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#video div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: rgb(0, 0, 0,1);
+    padding: 10px;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+}
